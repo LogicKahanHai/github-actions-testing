@@ -5,6 +5,7 @@ inputs:
   ENV_CONTENTS:
     description: 'Contents of .env file'
     required: true
+    type: object
 
 runs:
   using: docker
