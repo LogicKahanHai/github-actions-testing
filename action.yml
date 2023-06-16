@@ -1,0 +1,11 @@
+name: 'test action'
+description: 'test action'
+
+inputs:
+  ENV_CONTENTS:
+    description: 'Contents of .env file'
+    required: true
+
+runs:
+  using: docker
+  image: Dockerfile
